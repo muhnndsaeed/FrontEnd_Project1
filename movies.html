@@ -1,4 +1,4 @@
-<html lang="en">
+
 <html lang="en">
 
 <head>
@@ -8,6 +8,7 @@
     <title>Movies</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -60,23 +61,18 @@
                 </div>
                 <div class="movie-info">
                     <div class="info-section">
-                        <label>Date & Time</label>
-                        <span>Sun 8 Sept - 10:00PM</span>
+                        <label>Genres</label>
+                        <span>Action,Acventure,Sci-Fi</span>
                     </div>
                     <!--date,time-->
                     <div class="info-section">
-                        <label>Screen</label>
-                        <span>03</span>
+                        <label>IMDb RATING</label>
+                        <span>7.1/10</span>
                     </div>
                     <!--screen-->
                     <div class="info-section">
-                        <label>Row</label>
-                        <span>F</span>
-                    </div>
-                    <!--row-->
-                    <div class="info-section">
-                        <label>Seat</label>
-                        <span>21,22</span>
+                        <label>Duration</label>
+                        <span>2h 23m</span>
                     </div>
                     <!--seat-->
                 </div>
@@ -93,30 +89,26 @@
             <div class="movie-content">
                 <div class="movie-content-header">
                     <a href="#">
-                        <h3 class="movie-title">Baby Driver</h3>
+                        <h3 id="babyDriver" class="movie-title">Baby Driver</h3>
                     </a>
                     
                 </div>
                 <div class="movie-info">
                     <div class="info-section">
-                        <label>Date & Time</label>
-                        <span>Tue 4 July - 05:00PM</span>
+                        <label>Genres</label>
+                        <span>Action,Crime,Drama</span>
                     </div>
                     <!--date,time-->
                     <div class="info-section">
-                        <label>Screen</label>
-                        <span>01</span>
+                        <label>IMDb RATING</label>
+                        <span>7.6/10</span>
                     </div>
                     <!--screen-->
                     <div class="info-section">
-                        <label>Row</label>
-                        <span>H</span>
+                        <label>Duration</label>
+                        <span>1h 53m</span>
                     </div>
-                    <!--row-->
-                    <div class="info-section">
-                        <label>Seat</label>
-                        <span>15</span>
-                    </div>
+                    
                     <!--seat-->
                 </div>
             </div>
@@ -132,29 +124,24 @@
             <div class="movie-content">
                 <div class="movie-content-header">
                     <a href="#">
-                        <h3 class="movie-title">The Dark Tower</h3>
+                        <h3 id="darkTower" class="movie-title">The Dark Tower</h3>
                     </a>
                     
                 </div>
                 <div class="movie-info">
                     <div class="info-section">
-                        <label>Date & Time</label>
-                        <span>Wed 16 Aug - 07:00PM</span>
+                        <label>Genres</label>
+                        <span>Action,Adventure,Fantasy</span>
                     </div>
                     <!--date,time-->
                     <div class="info-section">
-                        <label>Screen</label>
-                        <span>06</span>
+                        <label>IMDb RATING</label>
+                        <span>5.6/10</span>
                     </div>
                     <!--screen-->
                     <div class="info-section">
-                        <label>Row</label>
-                        <span>C</span>
-                    </div>
-                    <!--row-->
-                    <div class="info-section">
-                        <label>Seat</label>
-                        <span>18</span>
+                        <label>Duration</label>
+                        <span>1h 35m</span>
                     </div>
                     <!--seat-->
                 </div>
@@ -171,30 +158,26 @@
             <div class="movie-content">
                 <div class="movie-content-header">
                     <a href="#">
-                        <h3 class="movie-title">Blade Runner 2049</h3>
+                        <h3 id="bladeRunner" class="movie-title">Blade Runner 2049</h3>
                     </a>
                     
                 </div>
                 <div class="movie-info">
                     <div class="info-section">
-                        <label>Date & Time</label>
-                        <span>Mon 16 Oct - 10:00PM</span>
+                        <label>Genres</label>
+                        <span>Action,Mystery,Drama</span>
                     </div>
                     <!--date,time-->
                     <div class="info-section">
-                        <label>Screen</label>
-                        <span>06</span>
+                        <label>IMDb RATING</label>
+                        <span>8.0/10</span>
                     </div>
                     <!--screen-->
                     <div class="info-section">
-                        <label>Row</label>
-                        <span>D</span>
+                        <label>Duration</label>
+                        <span>2h 44m</span>
                     </div>
-                    <!--row-->
-                    <div class="info-section">
-                        <label>Seat</label>
-                        <span>05,06</span>
-                    </div>
+                   
                     <!--seat-->
                 </div>
             </div>
@@ -203,16 +186,22 @@
         <!--movie-card-->
 
     </div>
-    <script>
+    
+    
+    <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+          </ul>
+          <p class="text-center text-muted">© 2022 Movies, Inc</p>
+        </footer>
+      </div>
 
-        document.getElementById("manSteal").onclick = () => {
-            let movie1 = document.getElementById("manSteal").innerHTML;
-            
-            window.localStorage.setItem("movie", movie1)
-            window.localStorage.getItem("movie")
-        }
-    </script>
-
+    <script src="app.js"></script>
 
 </body>
 
